@@ -1,9 +1,19 @@
+import sys
+
+
 def hello():
     print("hello")
 
 
+def ahoj():
+    print("ahoj")
+
+
 def main():
-    hello()
+    if sys.argv[1] == "sk":
+        ahoj()
+    else:
+        hello()
 
 
 if __name__ == "__main__":
