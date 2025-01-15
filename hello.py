@@ -14,10 +14,10 @@ def bonjour():
 
 
 def main():
-    if sys.argv[1] == "sk":
-        ahoj()
-    elif sys.argv[1] == "fr":
+    if sys.argv[1] == "fr":
         bonjour()
+    elif sys.argv[1] == "sk":
+        ahoj()
     else:
         hello()
 
