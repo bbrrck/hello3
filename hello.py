@@ -9,9 +9,15 @@ def ahoj():
     print("ahoj")
 
 
+def bonjour():
+    print("bonjour")
+
+
 def main():
     if sys.argv[1] == "sk":
         ahoj()
+    elif sys.argv[1] == "fr":
+        bonjour()
     else:
         hello()
 
