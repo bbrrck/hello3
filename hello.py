@@ -3,16 +3,16 @@ import sys
 
 def hello():
     # this is a test
-    print("hello!!")
+    print("hello!!!")
 
 
 def ahoj():
     # another test
-    print("ahoj!!")
+    print("ahoj!!!")
 
 
 def bonjour():
-    print("bonjour!!")
+    print("bonjour!!!")
 
 
 def main():
