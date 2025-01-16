@@ -2,15 +2,15 @@ import sys
 
 
 def hello():
-    print("hello!")
+    print("hello!!")
 
 
 def ahoj():
-    print("ahoj!")
+    print("ahoj!!")
 
 
 def bonjour():
-    print("bonjour!")
+    print("bonjour!!")
 
 
 def main():
