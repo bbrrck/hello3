@@ -15,6 +15,7 @@ def bonjour():
 
 
 def main():
+    # this code is awesome
     if sys.argv[1] == "fr":
         bonjour()
     elif sys.argv[1] == "sk":
